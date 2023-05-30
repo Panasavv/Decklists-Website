@@ -1,0 +1,29 @@
+package decklistHandler
+
+import (
+	"bufio"
+	"os"
+)
+
+func DecklistIsOK(s string) bool {
+	file, err := os.Open(s)
+	if err != nil {
+		fmt.Printf("Could not open the file due to this %s error \n", err)
+	}
+
+	fileScanner := bufio.NewScanner(file)
+	fileScanner.Split(bufio.ScanLines)
+	var fileLines []string
+
+	for fileScanner.Scan() {
+		fileLines = append(fileLines, fileScanner.Text())
+	}
+	if err = file.Close(); err != nil {
+		fmt.Printf("Could not close the file due to this %s error \n", err)
+	}
+
+	for key, value := range fileLines {
+		fmt.Printf("line %v : %s \n", key, value)
+	}
+	return true
+}

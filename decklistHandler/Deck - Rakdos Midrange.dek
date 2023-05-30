@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Deck xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NetDeckID>0</NetDeckID>
+  <PreconstructedDeckID>0</PreconstructedDeckID>
+  <Cards CatID="79628" Quantity="2" Sideboard="false" Name="Swamp" Annotation="0"/>
+  <Cards CatID="86949" Quantity="1" Sideboard="false" Name="Urborg, Tomb of Yawgmoth" Annotation="0"/>
+  <Cards CatID="38293" Quantity="3" Sideboard="false" Name="Blackcleave Cliffs" Annotation="0"/>
+  <Cards CatID="46443" Quantity="1" Sideboard="false" Name="Dreadbore" Annotation="0"/>
+  <Cards CatID="60628" Quantity="1" Sideboard="false" Name="Duress" Annotation="0"/>
+  <Cards CatID="50257" Quantity="3" Sideboard="false" Name="Thoughtseize" Annotation="0"/>
+  <Cards CatID="64997" Quantity="2" Sideboard="false" Name="Fatal Push" Annotation="0"/>
+  <Cards CatID="64997" Quantity="2" Sideboard="false" Name="Fatal Push" Annotation="0"/>
+  <Cards CatID="50257" Quantity="1" Sideboard="false" Name="Thoughtseize" Annotation="0"/>
+  <Cards CatID="46505" Quantity="4" Sideboard="false" Name="Blood Crypt" Annotation="0"/>
+  <Cards CatID="78352" Quantity="4" Sideboard="false" Name="Bonecrusher Giant" Annotation="0"/>
+  <Cards CatID="78628" Quantity="2" Sideboard="false" Name="Castle Locthwain" Annotation="0"/>
+  <Cards CatID="79566" Quantity="1" Sideboard="false" Name="Kroxa, Titan of Death's Hunger" Annotation="0"/>
+  <Cards CatID="87850" Quantity="4" Sideboard="false" Name="Blightstep Pathway" Annotation="0"/>
+  <Cards CatID="91730" Quantity="2" Sideboard="false" Name="Power Word Kill" Annotation="0"/>
+  <Cards CatID="92018" Quantity="2" Sideboard="false" Name="Hive of the Eye Tyrant" Annotation="0"/>
+  <Cards CatID="93164" Quantity="2" Sideboard="false" Name="Graveyard Trespasser" Annotation="0"/>
+  <Cards CatID="93536" Quantity="4" Sideboard="false" Name="Haunted Ridge" Annotation="0"/>
+  <Cards CatID="94832" Quantity="4" Sideboard="false" Name="Bloodtithe Harvester" Annotation="0"/>
+  <Cards CatID="98009" Quantity="2" Sideboard="false" Name="Fable of the Mirror-Breaker" Annotation="0"/>
+  <Cards CatID="97460" Quantity="2" Sideboard="false" Name="Reckoner Bankbuster" Annotation="0"/>
+  <Cards CatID="97502" Quantity="1" Sideboard="false" Name="Sokenzan, Crucible of Defiance" Annotation="0"/>
+  <Cards CatID="98009" Quantity="2" Sideboard="false" Name="Fable of the Mirror-Breaker" Annotation="0"/>
+  <Cards CatID="79628" Quantity="1" Sideboard="false" Name="Swamp" Annotation="0"/>
+  <Cards CatID="79628" Quantity="1" Sideboard="false" Name="Swamp" Annotation="0"/>
+  <Cards CatID="102691" Quantity="3" Sideboard="false" Name="Sheoldred, the Apocalypse" Annotation="0"/>
+  <Cards CatID="104802" Quantity="1" Sideboard="false" Name="Dreams of Steel and Oil" Annotation="0"/>
+  <Cards CatID="104822" Quantity="1" Sideboard="false" Name="Go for the Throat" Annotation="0"/>
+  <Cards CatID="104832" Quantity="1" Sideboard="false" Name="Misery's Shadow" Annotation="0"/>
+  <Cards CatID="27667" Quantity="1" Sideboard="true" Name="Pithing Needle" Annotation="0"/>
+  <Cards CatID="60628" Quantity="2" Sideboard="true" Name="Duress" Annotation="0"/>
+  <Cards CatID="56082" Quantity="1" Sideboard="true" Name="Kolaghan's Command" Annotation="0"/>
+  <Cards CatID="56264" Quantity="1" Sideboard="true" Name="Rending Volley" Annotation="0"/>
+  <Cards CatID="73119" Quantity="1" Sideboard="true" Name="Noxious Grasp" Annotation="0"/>
+  <Cards CatID="80185" Quantity="3" Sideboard="true" Name="Extinction Event" Annotation="0"/>
+  <Cards CatID="81459" Quantity="1" Sideboard="true" Name="Necromentia" Annotation="0"/>
+  <Cards CatID="88621" Quantity="1" Sideboard="true" Name="Go Blank" Annotation="0"/>
+  <Cards CatID="97388" Quantity="1" Sideboard="true" Name="Hidetsugu Consumes All" Annotation="0"/>
+  <Cards CatID="97460" Quantity="1" Sideboard="true" Name="Reckoner Bankbuster" Annotation="0"/>
+  <Cards CatID="99725" Quantity="2" Sideboard="true" Name="Unlicensed Hearse" Annotation="0"/>
+</Deck>
