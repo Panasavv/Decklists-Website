@@ -2,7 +2,9 @@ package decklistHandler
 
 import (
 	"bufio"
+	"fmt"
 	"os"
+	"strings"
 )
 
 func DecklistIsOK(s string) bool {
@@ -22,8 +24,27 @@ func DecklistIsOK(s string) bool {
 		fmt.Printf("Could not close the file due to this %s error \n", err)
 	}
 
+	var decklist Decklist
+	i := 0
 	for key, value := range fileLines {
-		fmt.Printf("line %v : %s \n", key, value)
+		_ = key
+		//fmt.Printf("line %v : %s \n", key, value)
+		if strings.Contains(value, "Name=\"") == true {
+
+			i++
+			s1 := strings.Split(value, "Quantity=\"")
+			s2 := strings.Split(s1[1], "\" Sideb")
+			s3 := strings.Split(s2[1], "Name=\"")
+
+			s4 := strings.Split(s3[1], "\"")
+			//fmt.Println(s2[0] + "x " + s4[0])
+
+			sf := s2[0] + "x " + s4[0]
+			decklist.AllCards[i] = sf
+
+			fmt.Println(sf)
+		}
+
 	}
 	return true
 }

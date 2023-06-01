@@ -19,7 +19,8 @@ func PioneerCardFinder(s string) bool {
 	}
 
 	data1 := generic["data"]
-	cards1 := data1.(map[string]interface{})[s]
+	cards1 := data1.(map[string]interface{})[s] //provlima me tis double faced kartes logika na kanw unmarshal
+
 	if cards1 != nil {
 		cards1 = nil
 		return true
